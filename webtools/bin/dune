@@ -1,0 +1,4 @@
+(executable
+ (public_name webtools)
+ (name main)
+ (libraries webtools dream dream-livereload tyxml))
