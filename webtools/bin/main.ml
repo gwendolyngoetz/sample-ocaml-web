@@ -82,7 +82,7 @@ let html_fragment_to_string html =
     Format.asprintf "%a" (Tyxml.Html.pp_elt ()) html
 
 let () =
-  Dream.run
+    Dream.run ~interface: "0.0.0.0"
   @@ Dream.logger
   @@ Dream.router [
     Dream.get "/" (fun _ ->

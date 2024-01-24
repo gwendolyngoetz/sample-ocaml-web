@@ -1,4 +1,4 @@
 (executable
  (public_name webtools)
  (name main)
- (libraries webtools dream dream-livereload tyxml))
+ (libraries webtools dream dream-livereload sqlite3 tyxml))
